@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+wordcloud
+langdetect
+scikit-learn
+gensim
+sentence-transformers
+umap-learn
+openpyxl

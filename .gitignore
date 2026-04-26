@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Datasets and heavy files (Crucial to avoid GitHub 100MB limit)
+data/youtube_data1.xlsx
+data/*.csv
+output/*.pkl
+output/*.csv
+
+# You can keep the plots in the repo
+!output/eda_plots/
+!output/*.png
+
+# Ignore test scripts
+test_*.py
+
+# OS generated files
+.DS_Store
+Thumbs.db

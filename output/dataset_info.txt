@@ -1,0 +1,45 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 306571 entries, 0 to 306570
+Data columns (total 38 columns):
+ #   Column                  Non-Null Count   Dtype         
+---  ------                  --------------   -----         
+ 0   video_id                306571 non-null  object        
+ 1   channel_id              306571 non-null  object        
+ 2   channel_title           306570 non-null  object        
+ 3   title                   306571 non-null  object        
+ 4   description             269454 non-null  object        
+ 5   tags                    202427 non-null  object        
+ 6   default_language        306570 non-null  object        
+ 7   default_audio_language  306261 non-null  object        
+ 8   category_id             306548 non-null  float64       
+ 9   topic_ids               0 non-null       float64       
+ 10  relevant_topic_ids      0 non-null       float64       
+ 11  published_at            306571 non-null  datetime64[ns]
+ 12  upload_hour             306571 non-null  int64         
+ 13  upload_day_of_week      306571 non-null  int64         
+ 14  duration                306497 non-null  float64       
+ 15  live_broadcast_content  306571 non-null  object        
+ 16  view_count              306571 non-null  int64         
+ 17  like_count              306571 non-null  int64         
+ 18  comment_count           306571 non-null  int64         
+ 19  like_view_ratio         306571 non-null  float64       
+ 20  comment_view_ratio      306571 non-null  float64       
+ 21  engagement_score        306571 non-null  float64       
+ 22  subscriber_count        302190 non-null  float64       
+ 23  channel_video_count     302170 non-null  float64       
+ 24  channel_age_days        146699 non-null  float64       
+ 25  channel_country         223574 non-null  object        
+ 26  channel_published_at    302170 non-null  datetime64[ns]
+ 27  positive_ratio          0 non-null       float64       
+ 28  negative_ratio          0 non-null       float64       
+ 29  toxic_ratio             0 non-null       float64       
+ 30  related_video_ids       0 non-null       float64       
+ 31  num_related_videos      306571 non-null  int64         
+ 32  caption                 306548 non-null  float64       
+ 33  licensed_content        306571 non-null  bool          
+ 34  projection              306548 non-null  object        
+ 35  thumbnail_high_url      306571 non-null  object        
+ 36  video_age_hours         306571 non-null  float64       
+ 37  collected_at            306571 non-null  datetime64[ns]
+dtypes: bool(1), datetime64[ns](3), float64(16), int64(6), object(12)
+memory usage: 86.8+ MB
